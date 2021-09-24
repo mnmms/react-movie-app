@@ -1,11 +1,16 @@
 # React Movie App
 
-
-## Learn
+## Learned
 - state, setState
 - lifecycle
 - fetch API(axios)
 - css
+- deploying to Github Page
 
 ## Todo
-- deploying to Github Page
+- refactoring code!
+
+## Project page
+https://mnmms.github.io/react-movie-app/
+
+## Preview
