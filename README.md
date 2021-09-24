@@ -4,6 +4,8 @@
 ## Learn
 - state, setState
 - lifecycle
+- fetch API(axios)
+- css
 
 ## Todo
-- fetch API
+- deploying to Github Page
