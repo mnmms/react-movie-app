@@ -6,9 +6,10 @@
 - fetch API(axios)
 - css
 - deploying to Github Page
+- react hooks
 
 ## Todo
-- refactoring code!
+- react-router-dom
 
 ## Project page
 https://mnmms.github.io/react-movie-app/
