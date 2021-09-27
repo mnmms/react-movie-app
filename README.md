@@ -7,9 +7,10 @@
 - css
 - deploying to Github Page
 - react hooks
+- react-router-dom
 
 ## Todo
-- react-router-dom
+- Navigation css
 
 ## Project page
 https://mnmms.github.io/react-movie-app/

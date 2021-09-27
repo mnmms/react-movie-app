@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Movie from '../components/Movie';
+import Navigation from '../components/Navigation';
+
 import './Home.css';
 
-const Home = () => {
+const Home = (props) => {
+  console.log(props);
   const [ isLoading, setIsLoading ] = useState(true);
   const [ movies, setMovies ] = useState([]);
 
@@ -25,11 +28,14 @@ const Home = () => {
           <span className="loader__text">Loading...</span>
         </div>
         : (
-          <div className="movies">
-          {movies.map(movie => {
-          return <Movie key={movie.id} id={movie.id} year={movie.year} genres={movie.genres} title={movie.title} summary={movie.summary} poster={movie.medium_cover_image}/>
-        })}
-        </div>
+          <>
+            <Navigation/>
+            <div className="movies">
+              {movies.map(movie => {
+                return <Movie key={movie.id} id={movie.id} year={movie.year} genres={movie.genres} title={movie.title} summary={movie.summary} poster={movie.medium_cover_image}/>
+              })}
+            </div> 
+          </>
         )
         }
       </section>
